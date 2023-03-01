@@ -1,0 +1,45 @@
+helmCharts:
+  - name: cert-manager
+    releaseName: my-cert-manager
+    namespace: cert-manager
+
+  - name: zipkin
+    releaseName: my-zipkin
+    namespace: observability
+#
+#  - name: base
+#    releaseName: my-istio-base
+#    namespace: istio-config
+#
+#  - name: istiod
+#    releaseName: my-istiod
+#    namespace: istio-system
+#
+#  - name: istio-egress
+#    releaseName: my-istio-egress
+#    namespace: istio-ingress
+#
+#  - name: istio-ingress
+#    releaseName: my-istio-ingress
+#    namespace: istio-ingress
+#
+#  - name: jaeger-operator
+#    releaseName: my-jaeger-operator
+#    namespace: observability
+
+
+
+
+
+
+
+
+
+
+###helmChartInflationGenerator:
+###- name: cert-manager
+###  version: v1.2.0
+###  chartHome: file://cert-manager
+###  namespace: cert-manager
+###  valuesFile: values.yaml  
+###  IncludeCRDs: true 
