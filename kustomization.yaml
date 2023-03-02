@@ -27,6 +27,9 @@ helmCharts:
     releaseName: my-jaeger-operator
     namespace: observability
 
+resources:
+  - ./charts/cert-manager/cert-manager.yaml
+  - ./charts/base/crds/crd-all.gen.yaml
 
 
 
